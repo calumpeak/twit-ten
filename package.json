@@ -1,0 +1,62 @@
+{
+  "name": "twit-ten",
+  "version": "1.0.0",
+  "description": "Simple twitter viewere",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Ran out of time!!\" && exit 1",
+    "dev": "webpack-dashboard webpack-dev-server",
+    "build": "webpack -p",
+    "prod": "npm run build && node server.js"
+  },
+  "keywords": [
+    "twitter",
+    "react",
+    "express"
+  ],
+  "author": "Calum Peak",
+  "license": "MIT",
+  "dependencies": {
+    "async-cache": "^1.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.18.1",
+    "node-metainspector": "^1.3.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^5.0.5",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.81.0",
+    "twitter": "^1.7.0",
+    "whatwg-fetch": "^2.0.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "body-parser": "^1.17.2",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "enzyme": "^2.8.2",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "^9.8.3",
+    "mocha": "^3.4.1",
+    "react-addons-test-utils": "^15.5.1",
+    "redux-mock-store": "^1.2.3",
+    "sinon": "^2.2.0",
+    "style-loader": "^0.13.1",
+    "supertest": "^3.0.0",
+    "webpack": "1.13.1",
+    "webpack-dashboard": "0.1.6",
+    "webpack-dev-server": "1.14.1",
+    "webpack-merge": "0.14.1"
+  }
+}
